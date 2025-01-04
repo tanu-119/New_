@@ -1,7 +1,7 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: MPL-2.0
 # Define Variables
-variable "aws_region" {
+variable "region" {
   description = "AWS Region for S3 bucket"
   type        = string
   default     = "us-west-1"
